@@ -5,27 +5,33 @@ import java.util.List;
 
 public class Collection {
 	public static void main(String args[]) {
+		
+		//Creating object of Class Car
 		Car car = new Car("Figo", 3000000, 1990, "Ford");
 		Car car1 = new Car("Suzuki", 3000000, 1990, "Ford");
 		Car car2 = new Car("Figo", 3000000, 1990, "Ford");
 		
+		//Creating object of Class CellPhone
 		CellPhone cellphone = new CellPhone("Moto", "MotoZ2Play",30000, "Improved Features", "Android");
 		CellPhone cellphone1 = new CellPhone("Moto", "MotoZ2Play",30000, "Improved Features", "Android");
 		CellPhone cellphone2 = new CellPhone("Moto", "MotoZ2Play",30000, "Improved Features", "Android");
 		
+		//Creating object of Class Laptop
 		Laptop laptop = new Laptop("Dell", "xps13", "Windows", "i7");
 		Laptop laptop1 = new Laptop("Apple", "MacBook Air", "Mac OS", "i5");
 		Laptop laptop2 = new Laptop("Hp", "pavillian", "windows", "i5");
 		
+		//Creating object of Class School
 		School school = new School("DPS ", "New Delhi ", "New Delhi ", 654);
 		School school1 = new School("DBN ", "Ajmer ", "Ajmer ", 433);
 		School school2 = new School("St. xavier's ", "Mumbai ", "Mumbai ", 435);
 		
+		//Creating object of Class Television
 		Television television = new Television("Sony ", "W43D ", "Yes" , 75000);
 		Television television1 = new Television("Sony ", "W63D ", "Yes" , 75000);
 		Television television2 = new Television("LG ", "Signature ", "Yes" , 105000);
 		
-		
+		//Creating List for Class Car
 		List<Car> cars = new ArrayList<Car>();
 		cars.add(car);
 		cars.add(car1);
@@ -34,6 +40,7 @@ public class Collection {
 			System.out.println(car3);
 		}
 		
+		//Creating List for Class School
 		List<School> schools = new ArrayList<School>();
 		schools.add(school);
 		schools.add(school1);
@@ -42,6 +49,7 @@ public class Collection {
 			System.out.println(school3);
 		}
 		
+		//Creating List for Class Television
 		List<Television> televisions = new ArrayList<Television>();
 		televisions.add(television);
 		televisions.add(television1);
