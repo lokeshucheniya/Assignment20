@@ -1,12 +1,14 @@
 package in.co.capgemini;
 
 public class CellPhone {
+	//Instance variable
 	private String model;
 	private String brand;
 	private int price;
 	private String specs;
 	private String technology;
 	
+	//Parameterised Constructor
 	public CellPhone(String model, String brand, int price, String specs, String technology) {
 		super();
 		this.model = model;
@@ -15,6 +17,8 @@ public class CellPhone {
 		this.specs = specs;
 		this.technology = technology;
 	}
+	
+	//Getters and Setters
 	public String getModel() {
 		return model;
 	}
