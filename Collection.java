@@ -58,6 +58,5 @@ public class Collection {
 			System.out.println(television3);
 		}
 		
-		
 	}
 }
