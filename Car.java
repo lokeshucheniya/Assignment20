@@ -2,12 +2,13 @@ package in.co.capgemini;
 
 public class Car {
 	
+	//Instance Variable
 	private String model;
 	private double price;
 	private int year;
 	private String manufacturer;
 	
-
+	//Parameterised Constructor
 	public Car(String model, double price, int year, String manufacturer) {
 		super();
 		this.model = model;
@@ -16,6 +17,7 @@ public class Car {
 		this.manufacturer = manufacturer;
 	}
 	
+	//Getter and Setters
 	public String getModel() {
 		return model;
 	}
@@ -40,6 +42,7 @@ public class Car {
 	public void setManufacturer(String manufacturer) {
 		this.manufacturer = manufacturer;
 	}
+	
 	@Override
 	public String toString() {
 		return "Car [model=" + getModel() + ", price=" + getPrice() + ", year=" + getYear()
