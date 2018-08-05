@@ -1,11 +1,14 @@
 package in.co.capgemini;
 
 public class Laptop {
+	
+	//Instance Variable
 	private String company;
 	private String model;
 	private String operatingSystem;
 	private String processor;
 	
+	//Parameterised Constructor
 	public Laptop(String company, String model, String operatingSystem, String processor) {
 		super();
 		this.company = company;
@@ -13,7 +16,8 @@ public class Laptop {
 		this.operatingSystem = operatingSystem;
 		this.processor = processor;
 	}
-
+	
+	//Getters and Setters
 	public String getCompany() {
 		return company;
 	}
