@@ -1,11 +1,14 @@
 package in.co.capgemini;
 
 public class School {
+	
+	//Instance Variable
 	private String name;
 	private String city;
 	private String district;
 	private int greatSchoolranking;
 	
+	//Parameterised Constructor
 	public School(String name, String city, String district, int greatSchoolranking) {
 		super();
 		this.name = name;
@@ -13,7 +16,8 @@ public class School {
 		this.district = district;
 		this.greatSchoolranking = greatSchoolranking;
 	}
-
+	
+	//Getters and Setters
 	public String getName() {
 		return name;
 	}
